@@ -1,0 +1,8 @@
+screen -t "top"
+stuff "htop"
+screen -t "misc"
+stuff "cd ~/dnload"
+screen -t "proj1"
+stuff "cd ~/work/"
+screen -t "proj2"
+stuff "cd ~/work/^M"

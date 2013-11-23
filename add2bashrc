@@ -1,0 +1,29 @@
+# to fix typo's
+shopt -s cdspell
+PROMPT_COMMAND='history -a'
+
+# to ignore ls,bg,fg in history
+export HISTIGNORE="&:ls:[bf]g:exit"
+
+export HISTTIMEFORMAT="%b,%d::%Hh:%Mm:%Ss "
+export HISTFILESIZE=5000
+export HISTSIZE=5000
+
+# git stuff
+if [ -f ~/bin/git-completion.bash ]; then
+   export GIT_PS1_SHOWDIRTYSTATE=1
+   export GIT_PS1_SHOWSTASHSTATE=1
+   export GIT_PS1_SHOWUNTRACKEDFILES=1
+   source ~/bin/git-completion.bash
+   export PS1='\u\[\033[00;32m\]@\h\[\033[00m\] \[\033[01;34m\]\W\[\033[00m\]$(__git_ps1 " (\[\033[01;34m\]%s\[\033[00m\]%s\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\])")\$ '
+fi
+git config --global user.name "Surya Saha"
+git config --global user.email "ss2489@cornell.edu"
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global color.interactive auto
+
+# functions
+function fastqcount(){ for fq in "$@"; do S=`wc -l "$fq" | awk '{print \$1}'`; printf "$fq: ";expr "$S" / 4; done;}
+
