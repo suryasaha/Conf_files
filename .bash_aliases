@@ -17,7 +17,9 @@ alias l='ls -CF'
 alias la='ls -a'
 alias llh='ls -lh'
 alias cls='clear'
-alias rm='rm -i'
+alias mv="mv -i"
+alias cp="cp -i"  
+alias rm="rm -i"
 alias cc='gcc'
 alias dir='ls -al|less'
 alias hs='history'
@@ -27,3 +29,7 @@ alias sgn='ssh -X surya@login.sgn.cornell.edu'
 alias fastacount='grep -c "^>"'
 
 
+#typos
+alias mf="mv -i"
+alias mroe="more"
+alias c='clear'
