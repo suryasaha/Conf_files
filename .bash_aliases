@@ -11,10 +11,17 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
+alias ls="ls -1p --color=auto"
+alias l="ls -lhGgo"
+alias ll="ls -lh"
+alias la="ls -lhGgoA"
+alias lt="ls -lhGgotr"
+alias lS="ls -lhGgoSr"
+alias l.="ls -lhGgod .*"
+alias lhead="ls -lhGgo | head"
+alias ltail="ls -lhGgo | tail"
+alias lmore='ls -lhGgo | more'
 alias l='ls -CF'
-alias la='ls -a'
 alias llh='ls -lh'
 alias cls='clear'
 alias mv="mv -i"
@@ -27,7 +34,7 @@ alias hlb='ssh -X surya@hlb.sgn.cornell.edu'
 alias dragon='ssh -X surya@dragon.sgn.cornell.edu'
 alias sgn='ssh -X surya@login.sgn.cornell.edu'
 alias fastacount='grep -c "^>"'
-
+alias u="cd ..;ls"
 
 #typos
 alias mf="mv -i"
