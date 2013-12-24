@@ -27,3 +27,4 @@ git config --global color.interactive auto
 # functions
 function fastqcount(){ for fq in "$@"; do S=`wc -l "$fq" | awk '{print \$1}'`; printf "$fq: ";expr "$S" / 4; done;}
 
+function mcd { mkdir -p "$1" && cd "$1";}
