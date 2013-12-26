@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<!--Initially created using the CPP.lang file as a template-->
+<!--Source http://ubuntuforums.org/showthread.php?t=967058 -->
+<language _name="Fasta" version="1.0" _section="Others">
+    <metadata>
+      <property name="globs">*.fas;*.fasta;*.fna</property>
+    </metadata>	
+	<line-comment _name = "Line Comment" style= "Comment">
+		<start-regex>^></start-regex>
+	</line-comment>
+</language>
