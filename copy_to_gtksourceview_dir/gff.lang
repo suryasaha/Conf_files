@@ -20,6 +20,11 @@
 		<keyword>start_codon</keyword>
 		<keyword>stop_codon</keyword>
 		<keyword>CDS</keyword>
+		<keyword>exon</keyword>
+		<keyword>intron</keyword>
+		<keyword>three_prime_UTR</keyword>
+		<keyword>five_prime_UTR</keyword>
+		<keyword>TF_binding_site</keyword>
 		<keyword>Refseq</keyword>
 		<keyword>RepeatMasker</keyword>
 		<keyword>RepeatScout</keyword>
