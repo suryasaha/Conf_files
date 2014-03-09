@@ -30,9 +30,6 @@ alias rm="rm -i"
 alias cc='gcc'
 alias dir='ls -al|less'
 alias hs='history'
-alias hlb='ssh -X surya@hlb.sgn.cornell.edu'
-alias dragon='ssh -X surya@dragon.sgn.cornell.edu'
-alias sgn='ssh -X surya@login.sgn.cornell.edu'
 alias fastacount='grep -c "^>"'
 alias u="cd ..;ls"
 
