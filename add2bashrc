@@ -17,8 +17,8 @@ if [ -f ~/bin/git-completion.bash ]; then
    source ~/bin/git-completion.bash
    export PS1='\u\[\033[00;32m\]@\h\[\033[00m\] \[\033[01;34m\]\W\[\033[00m\]$(__git_ps1 " (\[\033[01;34m\]%s\[\033[00m\]%s\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\]\[\033[01;31m\]%s\[\033[00m\])")\$ '
 fi
-git config --global user.name "Surya Saha"
-git config --global user.email "ss2489@cornell.edu"
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
 git config --global color.diff auto
 git config --global color.status auto
 git config --global color.branch auto
