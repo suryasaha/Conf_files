@@ -20,8 +20,8 @@ set incsearch
 set nohlsearch
 
 " bash-support.vim plugin options
-let g:BASH_AuthorName   = 'Surya Saha'     
-let g:BASH_Email        = 'ss2489@cornell.edu'            
+let g:BASH_AuthorName   = 'NAME'     
+let g:BASH_Email        = 'EMAIL'            
 let g:BASH_AuthorRef    = 'SS'                         
 let g:BASH_Company      = 'Cornell University' 
 
