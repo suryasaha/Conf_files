@@ -22,6 +22,7 @@
 		<keyword>CDS</keyword>
 		<keyword>exon</keyword>
 		<keyword>intron</keyword>
+		<keyword>mRNA</keyword>
 		<keyword>three_prime_UTR</keyword>
 		<keyword>five_prime_UTR</keyword>
 		<keyword>TF_binding_site</keyword>
