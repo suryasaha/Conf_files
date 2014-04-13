@@ -40,4 +40,5 @@ function fastqcount(){ for fq in "$@"; do S=`wc -l "$fq" | awk '{print \$1}'`; p
 function mcd { mkdir -p "$1" && cd "$1";}
 
 # info on login
-screen -ls
+#messes up sftp login since this message confuses the client with the additional text, commenting for now
+#screen -ls
