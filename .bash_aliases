@@ -32,8 +32,13 @@ alias dir='ls -al|less'
 alias hs='history'
 alias fastacount='grep -c "^>"'
 alias u="cd ..;ls"
+alias emacs='emacs -nw'
+alias parallel='parallel --gnu'
+
 
 #typos
 alias mf="mv -i"
 alias mroe="more"
 alias c='clear'
+alias emcas='emacs'
+
