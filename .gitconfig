@@ -6,3 +6,9 @@
 	status = auto
 	branch = auto
 	interactive = auto
+[alias]
+  st = status
+  br = branch
+  df = diff
+  lg = log
+  lgf= log --follow
