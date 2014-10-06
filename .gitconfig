@@ -12,3 +12,5 @@
   df = diff
   lg = log
   lgf= log --follow
+  cm = commit -m
+  cma= commit -am
