@@ -42,3 +42,9 @@ alias mroe="more"
 alias c='clear'
 alias emcas='emacs'
 
+#expt logs
+alias sgnexpt='fgrep "Expt" ~/Desktop/Dropbox/Personal/LogFiles/SGN_ExptLog.txt| less'
+alias expt='fgrep "Expt" ~/Desktop/Dropbox/Personal/LogFiles/Expt\ log.txt| less'
+alias sexpt='fgrep Expt ~/Desktop/Dropbox/Personal/LogFiles/Scrap.txt| less'
+
+
