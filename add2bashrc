@@ -42,3 +42,6 @@ function mcd { mkdir -p "$1" && cd "$1";}
 # info on login
 #messes up sftp login since this message confuses the client with the additional text, commenting for now
 #screen -ls
+
+#bc
+export BC_ENV_ARGS=$HOME/.bcrc
