@@ -20,6 +20,7 @@ export HISTFILESIZE=5000
 export HISTSIZE=5000
 
 # git stuff
+# See http://xlab.pl/en/centos-bash-__git_ps1-command-not-found/ for centos
 if [ -f ~/bin/git-completion.bash ]; then
    export GIT_PS1_SHOWDIRTYSTATE=1
    export GIT_PS1_SHOWSTASHSTATE=1
