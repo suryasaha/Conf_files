@@ -26,6 +26,7 @@ alias llh='ls -lh'
 alias cls='clear'
 alias mv="mv -i"
 alias cp="cp -i"  
+alias rmbackups='rm -f *~'
 alias rm="rm -i"
 alias cc='gcc'
 alias dir='ls -al|less'
